@@ -1,0 +1,47 @@
+
+<html>
+<head>
+<style>
+p {color:blue;}
+p {text-align: center;}
+p {font-size:30px }
+</style>
+</head>
+<body>
+  <p>Book My Rail</p>
+</body>
+</html>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="assets/image/train.png" alt="logo" style="width:40px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/register">UserReg.</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/search">Delete/update User</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/train-register">TrainReg.</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/search-delete-train">Delete/update Train</a>
+    </li>
+  </ul>
+</nav>
+</body>
+  <router-outlet></router-outlet>
+  
